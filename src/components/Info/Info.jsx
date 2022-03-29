@@ -22,7 +22,7 @@ export default function Info() {
         <h1 id="main-header-info">
           <span className="sub-header">HI I AM, </span>
           <motion.span id="main-header-info" className="main-header">
-            DIGNATA
+            DIGANTA
           </motion.span>
         </h1>
         <h3 id="sub-header-info">
