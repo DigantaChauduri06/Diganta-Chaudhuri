@@ -1,0 +1,16 @@
+.header-skills {
+  background: -webkit-linear-gradient(rgb(1, 120, 255), rgb(200, 219, 219));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box-skills {
+  margin: 20px;
+}
+.skill-list-div {
+  padding: 0px 100px;
+}
+@media screen and (max-width: 480px) {
+  .skill-list-div {
+    padding: 0px 40px;
+  }
+}

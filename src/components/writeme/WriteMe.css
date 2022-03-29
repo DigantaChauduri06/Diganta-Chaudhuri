@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97vw;
+  height: 85vh;
+  background: linear-gradient(
+    to right,
+    #141e30,
+    #243b55
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* border: 2px solid wheat; */
+  border-radius: 30px;
+  margin-left: 20px;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+}
+input,
+textarea {
+  display: block;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #454d53;
+}
+input:focus {
+  border: 2px solid #fff;
+  background-color: #333;
+}
+textarea {
+  background-color: #454d53;
+}
+textarea:focus {
+  background-color: #333;
+}
+.form-data-header {
+  font-weight: 700;
+  margin: 10px 3px;
+  display: inline-block;
+}
+.form-header {
+  letter-spacing: 2px;
+  /* font-family: 'Roboto Mono', monospace; */
+  background: -webkit-linear-gradient(rgb(1, 120, 255), rgb(200, 219, 219));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.9rem;
+}
+.btn-form {
+  padding: 3px 20px;
+  width: 150px;
+  text-align: center;
+  background-color: #1b98f5;
+  margin: 20px;
+  border-radius: 17px;
+}
+@media screen and (max-width: 480px) {
+  textarea {
+    width: 100%;
+  }
+  .writeup {
+    overflow-x: hidden;
+  }
+}

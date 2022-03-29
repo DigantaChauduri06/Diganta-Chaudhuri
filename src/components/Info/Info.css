@@ -1,0 +1,62 @@
+/*Overview*/
+.my-Info {
+    margin-top: 30vh;
+}
+.tag-line > h1 {
+      font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    text-indent: 1.9rem;
+}
+.tag-line h1 > .main-header {
+    font-size: 122px;
+  background: -webkit-linear-gradient(rgb(228, 25, 25), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tag-line h3 {
+    font-size: 10px;
+    text-indent: 20%;
+    word-spacing: 8px;
+    letter-spacing: 11px;
+    margin-top: -1%
+}
+.tag-line h3 > #dev {
+    font-size: 20px;
+    background: -webkit-linear-gradient(rgb(66, 228, 25), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 480px) {
+    .sub-header {
+        font-size: 1.5rem;
+        text-indent: 0;
+    }
+    #main-header-info {
+        font-size: 2.5rem;
+    }
+    .tag-line > h1  {
+        text-indent: 2%;
+    }
+    #main-header-info {
+        margin-top: 0;
+           letter-spacing: 3px;
+        /* margin-bottom: 40px; */
+    }
+    #sub-header-info {
+        font-size: .6rem;
+    }
+    .tag-line h3 > #dev  {
+        font-size: 11px;
+        padding: 2px;
+    }
+    .tag-line h3 {
+    font-size: 10px;
+    text-indent: 9%;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    margin-top: 3%;
+    line-height: 27px;
+}
+}

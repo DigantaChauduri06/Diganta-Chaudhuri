@@ -1,0 +1,28 @@
+.skill-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 60px;
+}
+.container-skills {
+  display: block;
+  text-align: center;
+}
+.skill-logo {
+  cursor: pointer;
+}
+.skill-logo:hover {
+  box-shadow: 5px 5px 5px 6px rgba(32, 4, 4, 0.43);
+  transition: all 500ms ease-in-out;
+}
+@media screen and (max-width: 480px) {
+  .skill-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 60px;
+  }
+  .skill-name {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+  }
+}

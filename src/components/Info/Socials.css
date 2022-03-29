@@ -1,0 +1,9 @@
+.socials {
+    height: 30vh;
+    align-items: flex-end;
+    display: flex;
+    /* border: 2px solid whitesmoke; */
+    justify-content: space-around;
+    flex-direction: row;
+
+}

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+.project-Details {
+  font-family: "Roboto Mono", monospace;
+}
+.modal-projects {
+  height: min(58%, 800px);
+}
+@media screen and (max-width: 480px) {
+  .projects-dec {
+    font-size: 0.8rem;
+  }
+}
