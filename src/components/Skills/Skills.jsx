@@ -21,7 +21,7 @@ const coding_profile = [
     name: "Leetcode",
     url: "https://leetcode.com/DigantaC/",
     logo: leetcode,
-    data: "Solved over 500+ DSA problems on Leetcode",
+    data: "Solved over 400+ DSA problems on Leetcode",
   },
   {
     name: "Geeks For Geeks",
