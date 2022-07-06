@@ -21,13 +21,13 @@ const coding_profile = [
     name: "Leetcode",
     url: "https://leetcode.com/DigantaC/",
     logo: leetcode,
-    data: "Solved over 270+ DSA problems on Leetcode",
+    data: "Solved over 500+ DSA problems on Leetcode",
   },
   {
     name: "Geeks For Geeks",
     url: "https://auth.geeksforgeeks.org/user/digantachaudhuri03/profile",
     logo: gfg,
-    data: "Solved over 140+ DSA Problems on Geeks for geeks",
+    data: "Solved over 190+ DSA Problems on Geeks for geeks",
   },
   {
     name: "HackerRank",
